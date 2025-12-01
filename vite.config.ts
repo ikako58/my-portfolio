@@ -3,11 +3,11 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { fileURLToPath } from "url";
 
-// Fix for __dirname in ES modules
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
+  base: "/my-portfolio/",  
   server: {
     host: "::",
     port: 8080,

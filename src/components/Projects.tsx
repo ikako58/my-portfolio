@@ -10,11 +10,11 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "HydroPower-2",
+      title: "WorldAtlass-App",
       description:
-        "A comprehensive hydropower management system built with modern web technologies. Features real-time monitoring and data visualization.",
-      technologies: ["Javascript", "HTML", "CSS"],
-      github: "https://github.com/ikako58/hydroPower-2",
+        "WorldAtlass-App is a modern, responsive web application built with React, Vite, TypeScript, Tailwind CSS, and Redux Toolkit that allows users to explore countries around the world.",
+      technologies: ["Javascript", "HTML", "CSS", 'TypeScript'],
+      github: "https://ikako58.github.io/Country-App1/",
       demo: null,
     },
     {
